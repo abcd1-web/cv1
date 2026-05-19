@@ -11,7 +11,7 @@ MAX_AREA = 200000  # 最大面积（排除背景大物体）
 MIN_CIRCULARITY = 0.7  # 圆形度，过滤非椭圆形状
 MAX_CIRCULARITY = 1
 
-lower_= np.array([0, 90, 40])
+lower= np.array([0, 90, 40])
 lower_re = np.array([0, 90, 40])
 lower_red = np.array([0, 90, 40])
 upper_red = np.array([10, 255, 255])
